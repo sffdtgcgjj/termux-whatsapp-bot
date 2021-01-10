@@ -30,16 +30,16 @@ const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const speed = require('performance-now')
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Nazwa🖤\n' // full name
+            + 'FN:Nazwa🖤\n' // Rubén 😎
             + 'ORG:Owner Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=:+62 852-8267-7885\n' // WhatsApp ID + phone number
+            + 'TEL;type=CELL;type=VOICE;waid=:+502 48817351\n' // WhatsApp ID + phone number
             + 'END:VCARD'
-prefix = '.'
-blocked = []
+prefix = '!'
+blocked = [+]
 
 const config = {
-        botname: 'BocchiBot', // Your Name Bot
-        oname: 'NAZWA' // Your Name
+        botname: 'BocchiBot', // Joker bot
+        oname: 'NAZWA' // Joker bot 
 }
 
 function kyun(seconds){
